@@ -40,7 +40,7 @@ span {
 	font-size: 0.3in;
 }
 
-.terminal #path {
+.path {
 	background-image: linear-gradient(to bottom,
 			rgb(0, 170, 255),
 			rgb(0, 170, 255) 25%,
