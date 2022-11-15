@@ -14,22 +14,22 @@
 <body>
 	<div class="crt">
 		<div class="terminal" style="white-space: pre;">
-			<p>Wellcome to <a href="https://github.com/memchr">memchr</a>'s website
-Last login: Tue Nov 15 13:39:23 2022 from ::1
-[memchr@github.com <span class="path">~/src/memchr</span>]$ ls
-memchr.c  Makefile
-[memchr@github.com <span class="path">~/src/memchr</span>]$ make
-cc -Wall main.c     -o main.o
-cc -Wall time.c     -o time.o
-cc -Wall loader.c   -o loader.o
-cc -Wall map_gen.c  -o map_gen.o
-cc -Wall memchr.c   -o memchr.o
-memchr.c:5:21: warning: ‘buf’ is used uninitialized [-Wuninitialized]
-5 |         char* pos = memchr(buf, 'm', 1024);
-  |                     ^~~~~~~~~~~~~~~~~~~~~~
-cc     -o memchr main.o time.o loader.o map_gen.o memchr.o
-[memchr@github.com <span class="path">~/src/memchr</span>]$ ./memchr
-[1] 181762 segmentation fault (core dumped) ./memchr</p>
+			<p>Wellcome to <a href="https://github/memchr">memchr</a>'s website</p>
+			<p>Last login: Tue Nov 15 13:39:23 2022 from ::1</p>
+			<p>[memchr@github.com <span class="path">~/src/memchr</span>]$ ls</p>
+			<p>memchr.c  Makefile</p>
+			<p>[memchr@github.com <span class="path">~/src/memchr</span>]$ make</p>
+			<p>cc -Wall main.c     -o main.o</p>
+			<p>cc -Wall time.c     -o time.o</p>
+			<p>cc -Wall loader.c   -o loader.o</p>
+			<p>cc -Wall map_gen.c  -o map_gen.o</p>
+			<p>cc -Wall memchr.c   -o memchr.o</p>
+			<p>memchr.c:5:21: warning: ‘buf’ is used uninitialized [-Wuninitialized]</p>
+			<p>5 |         char* pos = memchr(buf, 'm', 1024);</p>
+			<p>  |                     ^~~~~~~~~~~~~~~~~~~~~~</p>
+			<p>cc     -o memchr main.o time.o loader.o map_gen.o memchr.o</p>		
+			<p>[memchr@github.com <span class="path">~/src/memchr</span>]$ ./memchr</p>
+			<p>[1] 181762 segmentation fault (core dumped) ./memchr</p>
 		</div>
 	</div>
 </body>
